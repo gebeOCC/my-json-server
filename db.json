@@ -1,51 +1,200 @@
 {
-  "student": [
+  "students": [
     {
       "id": 1,
       "name": "Juan Dela Cruz",
       "course": "BSIT",
-      "year_level": 1,
-      "email": "juan@example.com",
-      "phone": "09171234567",
-      "address": "Opol, Misamis Oriental"
+      "year_level": 1
     },
     {
       "id": 2,
       "name": "Maria Santos",
       "course": "BSIT",
-      "year_level": 2,
-      "email": "maria@example.com",
-      "phone": "09181234567",
-      "address": "Cagayan de Oro City"
+      "year_level": 2
     },
     {
       "id": 3,
       "name": "Carlo Reyes",
       "course": "BSBA",
-      "year_level": 3,
-      "email": "carlo@example.com",
-      "phone": "09191234567",
-      "address": "El Salvador City"
+      "year_level": 3
     },
     {
       "id": 4,
       "name": "Angela Flores",
       "course": "BEED",
-      "year_level": 2,
-      "email": "angela@example.com",
-      "phone": "09201234567",
-      "address": "Laguindingan, Misamis Oriental"
+      "year_level": 2
     },
     {
       "id": 5,
       "name": "Mark Villanueva",
       "course": "BSIT",
+      "year_level": 4
+    },
+    {
+      "id": 6,
+      "name": "Jasmine Lim",
+      "course": "BSED",
+      "year_level": 1
+    },
+    {
+      "id": 7,
+      "name": "Paolo Mendoza",
+      "course": "BSBA",
+      "year_level": 2
+    },
+    {
+      "id": 8,
+      "name": "Nicole Garcia",
+      "course": "BSIT",
+      "year_level": 3
+    },
+    {
+      "id": 9,
+      "name": "Kevin Ramos",
+      "course": "BEED",
+      "year_level": 4
+    },
+    {
+      "id": 10,
+      "name": "Sophia Torres",
+      "course": "BSIT",
+      "year_level": 2
+    }
+  ],
+
+  "student": [
+    {
+      "id": 1,
+      "student_id": "2026-0001",
+      "name": "Juan Dela Cruz",
+      "course": "BSIT",
+      "course_name": "Bachelor of Science in Information Technology",
+      "year_level": 1,
+      "email": "juan@example.com",
+      "phone": "09171234567",
+      "address": "Opol, Misamis Oriental",
+      "gender": "Male",
+      "status": "Regular"
+    },
+    {
+      "id": 2,
+      "student_id": "2026-0002",
+      "name": "Maria Santos",
+      "course": "BSIT",
+      "course_name": "Bachelor of Science in Information Technology",
+      "year_level": 2,
+      "email": "maria@example.com",
+      "phone": "09181234567",
+      "address": "Cagayan de Oro City",
+      "gender": "Female",
+      "status": "Regular"
+    },
+    {
+      "id": 3,
+      "student_id": "2026-0003",
+      "name": "Carlo Reyes",
+      "course": "BSBA",
+      "course_name": "Bachelor of Science in Business Administration",
+      "year_level": 3,
+      "email": "carlo@example.com",
+      "phone": "09191234567",
+      "address": "El Salvador City",
+      "gender": "Male",
+      "status": "Regular"
+    },
+    {
+      "id": 4,
+      "student_id": "2026-0004",
+      "name": "Angela Flores",
+      "course": "BEED",
+      "course_name": "Bachelor of Elementary Education",
+      "year_level": 2,
+      "email": "angela@example.com",
+      "phone": "09201234567",
+      "address": "Laguindingan, Misamis Oriental",
+      "gender": "Female",
+      "status": "Regular"
+    },
+    {
+      "id": 5,
+      "student_id": "2026-0005",
+      "name": "Mark Villanueva",
+      "course": "BSIT",
+      "course_name": "Bachelor of Science in Information Technology",
       "year_level": 4,
       "email": "mark@example.com",
       "phone": "09211234567",
-      "address": "Gitagum, Misamis Oriental"
+      "address": "Gitagum, Misamis Oriental",
+      "gender": "Male",
+      "status": "Regular"
+    },
+    {
+      "id": 6,
+      "student_id": "2026-0006",
+      "name": "Jasmine Lim",
+      "course": "BSED",
+      "course_name": "Bachelor of Secondary Education",
+      "year_level": 1,
+      "email": "jasmine@example.com",
+      "phone": "09221234567",
+      "address": "Cagayan de Oro City",
+      "gender": "Female",
+      "status": "Regular"
+    },
+    {
+      "id": 7,
+      "student_id": "2026-0007",
+      "name": "Paolo Mendoza",
+      "course": "BSBA",
+      "course_name": "Bachelor of Science in Business Administration",
+      "year_level": 2,
+      "email": "paolo@example.com",
+      "phone": "09231234567",
+      "address": "Opol, Misamis Oriental",
+      "gender": "Male",
+      "status": "Regular"
+    },
+    {
+      "id": 8,
+      "student_id": "2026-0008",
+      "name": "Nicole Garcia",
+      "course": "BSIT",
+      "course_name": "Bachelor of Science in Information Technology",
+      "year_level": 3,
+      "email": "nicole@example.com",
+      "phone": "09241234567",
+      "address": "Alubijid, Misamis Oriental",
+      "gender": "Female",
+      "status": "Regular"
+    },
+    {
+      "id": 9,
+      "student_id": "2026-0009",
+      "name": "Kevin Ramos",
+      "course": "BEED",
+      "course_name": "Bachelor of Elementary Education",
+      "year_level": 4,
+      "email": "kevin@example.com",
+      "phone": "09251234567",
+      "address": "El Salvador City",
+      "gender": "Male",
+      "status": "Regular"
+    },
+    {
+      "id": 10,
+      "student_id": "2026-0010",
+      "name": "Sophia Torres",
+      "course": "BSIT",
+      "course_name": "Bachelor of Science in Information Technology",
+      "year_level": 2,
+      "email": "sophia@example.com",
+      "phone": "09261234567",
+      "address": "Cagayan de Oro City",
+      "gender": "Female",
+      "status": "Regular"
     }
   ],
+
   "announcements": [
     {
       "id": 1,
@@ -67,8 +216,23 @@
       "description": "New students are encouraged to attend the library orientation.",
       "date": "2026-09-22",
       "author": "Library Office"
+    },
+    {
+      "id": 4,
+      "title": "Campus Cleanup Drive",
+      "description": "Student organizations are invited to participate in the campus cleanup drive.",
+      "date": "2026-09-25",
+      "author": "Student Affairs Office"
+    },
+    {
+      "id": 5,
+      "title": "No Classes",
+      "description": "Classes are suspended due to a scheduled campus-wide activity.",
+      "date": "2026-09-30",
+      "author": "Administration"
     }
   ],
+
   "subjects": [
     {
       "id": 1,
@@ -89,6 +253,27 @@
       "subject_code": "IT311",
       "subject_name": "Application Development and Emerging Technologies",
       "instructor": "Mr. Barry",
+      "units": 3
+    },
+    {
+      "id": 4,
+      "subject_code": "IT305",
+      "subject_name": "Database Systems",
+      "instructor": "Ms. Lea Ramos",
+      "units": 3
+    },
+    {
+      "id": 5,
+      "subject_code": "IT410",
+      "subject_name": "Capstone Project",
+      "instructor": "Mr. Noel Garcia",
+      "units": 3
+    },
+    {
+      "id": 6,
+      "subject_code": "IT220",
+      "subject_name": "Networking Fundamentals",
+      "instructor": "Mr. Daniel Sy",
       "units": 3
     }
   ]
