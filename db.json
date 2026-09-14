@@ -1,113 +1,95 @@
 {
-    "students": [
-        {
-            "id": 1,
-            "name": "Juan Dela Cruz",
-            "course": "BSIT",
-            "year_level": 1,
-            "email": "juan@example.com"
-        },
-        {
-            "id": 2,
-            "name": "Maria Santos",
-            "course": "BSIT",
-            "year_level": 2,
-            "email": "maria@example.com"
-        },
-        {
-            "id": 3,
-            "name": "Carlo Reyes",
-            "course": "BSBA",
-            "year_level": 3,
-            "email": "carlo@example.com"
-        },
-        {
-            "id": 4,
-            "name": "Angela Flores",
-            "course": "BEED",
-            "year_level": 2,
-            "email": "angela@example.com"
-        },
-        {
-            "id": 5,
-            "name": "Mark Villanueva",
-            "course": "BSIT",
-            "year_level": 4,
-            "email": "mark@example.com"
-        }
-    ],
-    "announcements": [
-        {
-            "id": 1,
-            "title": "Enrollment Schedule",
-            "description": "Enrollment for the new semester starts next Monday.",
-            "date": "2026-09-15",
-            "author": "Registrar Office"
-        },
-        {
-            "id": 2,
-            "title": "IT Week",
-            "description": "Students are invited to join the upcoming IT Week activities.",
-            "date": "2026-09-20",
-            "author": "CIT Department"
-        },
-        {
-            "id": 3,
-            "title": "Library Orientation",
-            "description": "New students are encouraged to attend the library orientation.",
-            "date": "2026-09-22",
-            "author": "Library Office"
-        },
-        {
-            "id": 4,
-            "title": "Campus Cleanup",
-            "description": "All student organizations are invited to participate in the campus cleanup drive.",
-            "date": "2026-09-25",
-            "author": "Student Affairs"
-        },
-        {
-            "id": 5,
-            "title": "No Classes",
-            "description": "Classes are suspended due to a scheduled campus-wide activity.",
-            "date": "2026-09-30",
-            "author": "Administration"
-        }
-    ],
-    "subjects": [
-        {
-            "id": 1,
-            "subject_code": "IT101",
-            "subject_name": "Introduction to Computing",
-            "instructor": "Mr. Adrian Cruz",
-            "units": 3
-        },
-        {
-            "id": 2,
-            "subject_code": "IT202",
-            "subject_name": "Web Development",
-            "instructor": "Ms. Karen Lim",
-            "units": 3
-        },
-        {
-            "id": 3,
-            "subject_code": "IT311",
-            "subject_name": "Application Development and Emerging Technologies",
-            "instructor": "Mr. Barry",
-            "units": 3
-        },
-        {
-            "id": 4,
-            "subject_code": "IT305",
-            "subject_name": "Database Systems",
-            "instructor": "Ms. Lea Ramos",
-            "units": 3
-        },
-        {
-            "id": 5,
-            "subject_code": "IT410",
-            "subject_name": "Capstone Project",
-            "instructor": "Mr. Noel Garcia",
-            "units": 3
-        }
-    ]
+  "student": [
+    {
+      "id": 1,
+      "name": "Juan Dela Cruz",
+      "course": "BSIT",
+      "year_level": 1,
+      "email": "juan@example.com",
+      "phone": "09171234567",
+      "address": "Opol, Misamis Oriental"
+    },
+    {
+      "id": 2,
+      "name": "Maria Santos",
+      "course": "BSIT",
+      "year_level": 2,
+      "email": "maria@example.com",
+      "phone": "09181234567",
+      "address": "Cagayan de Oro City"
+    },
+    {
+      "id": 3,
+      "name": "Carlo Reyes",
+      "course": "BSBA",
+      "year_level": 3,
+      "email": "carlo@example.com",
+      "phone": "09191234567",
+      "address": "El Salvador City"
+    },
+    {
+      "id": 4,
+      "name": "Angela Flores",
+      "course": "BEED",
+      "year_level": 2,
+      "email": "angela@example.com",
+      "phone": "09201234567",
+      "address": "Laguindingan, Misamis Oriental"
+    },
+    {
+      "id": 5,
+      "name": "Mark Villanueva",
+      "course": "BSIT",
+      "year_level": 4,
+      "email": "mark@example.com",
+      "phone": "09211234567",
+      "address": "Gitagum, Misamis Oriental"
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "Enrollment Schedule",
+      "description": "Enrollment for the new semester starts next Monday.",
+      "date": "2026-09-15",
+      "author": "Registrar Office"
+    },
+    {
+      "id": 2,
+      "title": "IT Week",
+      "description": "Students are invited to join the upcoming IT Week activities.",
+      "date": "2026-09-20",
+      "author": "CIT Department"
+    },
+    {
+      "id": 3,
+      "title": "Library Orientation",
+      "description": "New students are encouraged to attend the library orientation.",
+      "date": "2026-09-22",
+      "author": "Library Office"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "subject_code": "IT101",
+      "subject_name": "Introduction to Computing",
+      "instructor": "Mr. Adrian Cruz",
+      "units": 3
+    },
+    {
+      "id": 2,
+      "subject_code": "IT202",
+      "subject_name": "Web Development",
+      "instructor": "Ms. Karen Lim",
+      "units": 3
+    },
+    {
+      "id": 3,
+      "subject_code": "IT311",
+      "subject_name": "Application Development and Emerging Technologies",
+      "instructor": "Mr. Barry",
+      "units": 3
+    }
+  ]
 }
